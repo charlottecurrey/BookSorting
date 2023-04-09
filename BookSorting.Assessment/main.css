@@ -1,0 +1,46 @@
+body {
+  background-color: powderblue;
+}
+
+#title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#bookshelf {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 1em 0;
+}
+
+li::before {
+  content: "📚";
+}
+
+.Title {
+  font-style: italic;
+  font-weight: bold;
+}
+.Author {
+  font-weight: bold;
+}
+
+button:focus {
+  margin-top: 1px;
+  background-color: deepskyblue;
+}
+
+#search-button {
+  width: 6vw;
+  height: 2vw;
+}

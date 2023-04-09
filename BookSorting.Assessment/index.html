@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charlotte's Books</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1 id="title">Charlotte's Books</h1>
+    <span> Number of Favorites: <span id="numfavs">0</span></span
+    ><br /><br />
+    <input type="text" class="search" placeholder="Search for Books" />
+    <button id="search-button">Search</button><br /><br />
+    <label for="Sortby">Sort by:</label>
+
+    <select name="Sortby" id="sorting">
+      <option value="A-Z">Alphabetical</option>
+      <option value="title">Title</option>
+      <option value="Author">Author</option>
+    </select>
+    <main id="bookshelf">
+      <ul id="book-list"></ul>
+    </main>
+    <script src="book-data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
